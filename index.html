@@ -10,7 +10,15 @@
 </head>
 
 <body>
-  <div class="sign-in-or-sign-out"></div>
+  <div class="py-8 md:px-32 px-0 md:w-1/2 w-full mx-auto">
+    <div class="sign-in-or-sign-out">
+      <!-- Authentication process in JavaScript -->
+    </div>
+
+    <div class="posts">
+      <!-- Posts rendered from JavaScript -->
+    </div>
+  </div>
  
   <!-- Put the Firebase config here -->
   <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -21,7 +29,14 @@
 
   <script>
     // Your web app's Firebase configuration
-    var firebaseConfig = {} // replace
+    var firebaseConfig = {
+    apiKey: "AIzaSyBObVYnR5f0M4yRY7EEWuDaKDm0c8OjNIk",
+    authDomain: "kiei-451-3b652.firebaseapp.com",
+    projectId: "kiei-451-3b652",
+    storageBucket: "kiei-451-3b652.appspot.com",
+    messagingSenderId: "361745139019",
+    appId: "1:361745139019:web:584f274060daf4f97014ce"
+    }; // replace
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
   </script>
