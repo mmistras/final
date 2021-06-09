@@ -1,6 +1,6 @@
 firebase.auth().onAuthStateChanged(async function(user) {
   if (user) {
-    // Signed in
+    // Signed in - status / conditional if signed in
     console.log('signed in')
 
     // Build the markup for the sign-out button and set the HTML in the header
